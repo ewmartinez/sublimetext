@@ -1,0 +1,12 @@
+# de: https://stackoverflow.com/questions/29687417/is-there-a-way-to-sync-sublime-text-settings-across-multiple-computers#:~:text=Despite%20DropBox%2C%20you%20can%20simply%20use%20Git%20to,remote%20add%20origin%20%3Crepository%20url%3E%20...%20M%C3%A1s%20elementos
+
+# y https://devmount.medium.com/using-git-to-sync-sublime-text-settings-f70b8dc7a40d#.4mi7sio3x
+
+# Ignore everything...
+*
+# ... except preferences and package list
+!.gitignore
+!Preferences.sublime-settings
+!Package Control.sublime-settings
+
+
